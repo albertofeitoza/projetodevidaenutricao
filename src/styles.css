@@ -38,5 +38,30 @@ img{
     object-position: bottom;
  }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.imgMobile {
+    display: block;
+}
+
+@media screen and (min-width:600px){
+    .imgMobile {
+        display:none;
+    }
+}
+
+
+.imgPc {
+    display: none;
+}
+
+@media screen and (min-width:600px){
+    .imgPc {
+        display:block;
+    }
+}
+
+
+
+
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */

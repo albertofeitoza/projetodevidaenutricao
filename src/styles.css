@@ -26,16 +26,17 @@
     margin-right: 10%;
 }
 
+.formula{
+    font-size: 9px;
+}
+
 ul{
     list-style-type: circle;
   }
 
 img{
-    width: 95%;
-    height: 350px;
-    padding: 15px;
-    object-fit: cover;
-    object-position: bottom;
+    width: 98%;
+    position: relative;
  }
 
 
